@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: mainFont;
+    src: url(PlaywriteGBS-VariableFont_wght.ttf);
+}
+header{
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    width: 100%;
+    position:fixed;
+    background-color:#00000088;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 35px;
+}
+header nav a i{
+    padding: 0 3px 8px 0;
+}
+header nav a i{
+    padding: 0 3px 8px 0;
+}
+header img{
+    width: 60px;
+    border: 2px solid ;
+    border-radius: 50px;
+}
+header h1{
+    color:#fff;
+    -webkit-text-stroke: 1px #fff;
+
+}
+
+header h1 span{
+    color: white;}
+header nav a{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+}
+header nav a:hover{
+    color:#b21717;
+    border-radius: 8px;
+}
+header input{
+    border-radius: 4px;
+padding: 7px 7px;
+border: none;
+background-color: #00000088;
+border: 2px solid rgb(37, 29, 7) ;
+
+}
+header button{
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    background-color:black;
+    border: 2px solid  #0d0c0c;
+    cursor: pointer;
+}
+
+.cont{
+    flex-wrap: wrap;
+    padding: 18px;
+    width: 100%;
+    min-height: 150vh;
+    background-image: url(image/23.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cont h1{
+    font-size: 4em;
+    color:white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+.cont h2{
+    font-size: 4em;
+    color:#df361f;
+}
+
+.container{
+    flex-wrap: wrap;
+    height: 120vh;
+    background-image: url(image/E18.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px !important;
+}
+
+form {
+    max-width: 650px;
+    background-color: #00000088;
+    backdrop-filter: blur(3px);
+    gap: 40px 24px;
+}
+
+form h2{
+    text-align: center;
+    width: 100%;
+}
+
+.input-box {
+    width: 280px;
+    position: relative;
+}
+
+.input-box label{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label,
+.input-box textarea:focus ~ label,
+.input-box textarea:valid ~ label{
+    top: -18px;
+}
+
+.input-box input,
+.input-box textarea{
+    width: 100%;
+    font-size: 18px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid var(--main);
+    color: var(--sub);
+}
+
+.input-box label {
+    color: var(--main);
+}
+.container form i{
+    color: #fff;
+}
+
+.footer {
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 25px;
+        color:white;
+        background-color:black;
+        text-align: center;
+        border-top: 2px solid white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+         flex-wrap: wrap;
+        }
+        .footer a i{
+            color: white;
+            padding: 5px;
+        }
+        .footer a{
+        text-decoration: none;
+        color: white;
+        }
+
+        .footer span{
+            color: #b21717;
+        }
+        .footer p{
+            color:white;
+        }

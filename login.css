@@ -1,0 +1,72 @@
+body {
+    flex-wrap: wrap;
+    margin: 100px;
+    padding:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-image: url(image/p2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+@font-face {
+    font-family: mainFont;
+    src: url(PlaywriteGBS-VariableFont_wght.ttf);
+}
+
+.login-container {
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-position: center;
+}
+fieldset{
+    background-color: #000000c2;
+    backdrop-filter: blur(3px);
+}
+fieldset legend{
+    flex-wrap: wrap;
+    color: #fff;
+    box-shadow: 0 2px rgb(251, 251, 251);
+}
+
+input {
+    color: #fff;
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background-color:black;
+    opacity: 0.4;
+}
+button {
+    flex-wrap: wrap;
+    width: 102%;
+    padding: 6px;
+    background-color:#00000088;
+    color:white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    opacity: 0.8;
+
+}
+  h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+p{
+    color: #4b4949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    color:white;
+}
